@@ -1,0 +1,28 @@
+/* *{
+    box-sizing: border-box;
+} */
+
+body{
+    background-image: linear-gradient(#3E5151,#DECBA4);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    
+}
+div.container{
+    margin: auto;
+    background-color: wheat;
+    width: 80%;
+    height: 80%;
+}
+div.header{
+    text-align: center;
+    /* background-color: rgba(240, 230, 140, 0.822); */
+    /* opacity: 0.1; */
+    color: black;
+}
+.header h1{
+
+    
+}
