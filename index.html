@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akan Names</title>
+    <link rel="shortcut icon" href="/IP-/IMG/ethnic-seamless-pattern-cloth-kente-vector-21107031.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css.css">
+    
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="header"><h1 class="header">Discover your Akan Name</h1></div>
+        <div class="container2">
+            <div class="description">
+                <p class="content">
+                    The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These day names have further meanings concerning the soul and character of the person. They also vary depending on the gender. To discover what your Akan name is click on your appropriate gender button and insert your birthday. 
+                </p>
+                <a href="https://en.wikipedia.org/wiki/Akan_names" class="read" target="blank">Click here to find out more about Akan names...</a>
+            </div>
+            <div class="gender">    
+                <h3>Pick your gender</h3>
+                <div class="buttons"></div>
+                    <button class="male" onclick="akanObj.form_display_male()">
+                        <span><img src="/IP-/IMG/male-solid.svg" alt="" width="25px" height="25px"></span>
+                        Male</button>
+                    <button class="Female" onclick="akanObj.form_display_female()"> <span><img src="/IP-/IMG/female-solid.svg" alt="" width="25px" height="25px"></span>Female</button>
+                </div>
+            </div>    
+        </div>
+        <div class="inputform" id="inputform" >
+             <form>
+                <div class="input">
+                    <label for="b-day">Enter your birthday</label>
+                    <input type="date" name="b-day" id="bday" value="06/11/2012">
+                </div>
+                <br>
+                <button type="button" id="button" onclick="akanObj.date_confirmation()">Submit</button>
+            
+            </form>
+        </div>
+    </div>
+    <div class="containerinfo" id="containerinfo">
+        <div class="nameinfo" id="nameinfodiv">
+            <h2 class="Congrats" id="nameinfo">Congraculations your Akan name is:</h2>
+            <h2 class="akannname" id="akanname">Kwame</h2>
+        </div>
+    </div>
+    
+    
+
+    <script src="/IP-/js.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+/* *{
+    box-sizing: border-box;
+} */
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(#3E5151,#DECBA4);
+    background-repeat: no-repeat;
+     
+}
+div.container{
+    padding: 0;
+    margin: 10vh auto 2vh;
+    width: 85vw;
+    height: 85vh;
+    background-color: rgb(167, 222, 135);
+    position: relative;
+    /* display: none; */
+}
+.header h1{
+    padding: 15vh 0vh 5vh;
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+    
+}
+.container2{
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.container2 .description{
+    flex-basis: 65%;
+    /* border: 2px solid black; */
+}
+.inputform{
+    display: none;
+}
+.inputform button{
+    border: none;
+    background-color: darkslategray;
+    color: floralwhite;
+    padding: 20px 40px;
+    text-align: center;
+    font-size: 20px;
+}
+.inputform form{
+    position: absolute;
+    top: 20vh;
+    bottom: 20vh;
+    right: 25vw;
+    left: 25vw;
+    margin: 0;
+    padding: 0%;
+    width: 50vw;
+    height: 75vh;
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+div.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    border: none;
+    background-color: darkslategray;
+    color: floralwhite;
+    padding: 20px 40px 20px 25px;
+    text-align: center;
+    font-size: 20px;
+}
+button:hover{
+    background-color: floralwhite;
+    color:  darkslategray;
+    text-decoration: underline;
+}
+div.input{
+    padding: 20px;
+}
+a:hover{
+    color: black;
+}
+span img{
+    vertical-align: middle;
+    padding-right: 5px;
+}
+.containerinfo{
+    display: none;
+    justify-content: center;
+    align-content: center; 
+    height: 100vh;
+    /* background-color: #3c86fd;   */
+}
+.nameinfo{
+    position: relative;
+    top: 10vh;
+    padding: 0;
+    height: 65%;
+    width: 65%;
+    background-image: linear-gradient(#3c86fd, #c2e9fb);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    /* align-content: flex-start; */
+}
+.nameinfo .congrats{
+    width: 50%;
+    margin-top: 10vh;
+    
+
+}
